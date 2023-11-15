@@ -37,7 +37,7 @@ body {
 .form-container {
     background-color: #D9D9D9;
     padding: 24px;
-    border-radius: 24px;
+    border-radius: 70px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     width: 384px;
 }
@@ -106,8 +106,31 @@ a:hover {
 #password {
     background-image: url('fermer-a-cle.png');  /* Remplacez par le chemin de votre image */
     background-repeat: no-repeat;
-    background-position: right center; /* Placez l'image à droite au centre */
+    background-position: calc(100% - 20px) center;
     background-size: 20px; /* La taille de l'image, ajustez selon vos besoins */
     padding-right: 30px; /* Pour s'assurer que le texte ne chevauche pas l'image */
-    /* margin-right: 5%; */
+}
+
+#password_verify {
+    background-image: url('fermer-a-cle.png');  /* Remplacez par le chemin de votre image */
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    background-size: 20px; /* La taille de l'image, ajustez selon vos besoins */
+    padding-right: 30px; /* Pour s'assurer que le texte ne chevauche pas l'image */
+}
+
+#username {
+    background-image: url('utilisateur-de-profil.png');  /* Remplacez par le chemin de votre image */
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    background-size: 20px; /* La taille de l'image, ajustez selon vos besoins */
+    padding-right: 30px;
+}
+
+#email {
+    background-image: url('email.png');  /* Remplacez par le chemin de votre image */
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    background-size: 20px; /* La taille de l'image, ajustez selon vos besoins */
+    padding-right: 30px;
 }

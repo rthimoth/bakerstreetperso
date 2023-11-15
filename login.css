@@ -104,10 +104,23 @@ a:hover {
 }
 
 #password {
-    background-image: url('email.png');  /* Remplacez par le chemin de votre image */
+    background-image: url('fermer-a-cle.png');  /* Remplacez par le chemin de votre image */
     background-repeat: no-repeat;
-    background-position: right center; /* Placez l'image à droite au centre */
+    background-position: calc(100% - 20px) center;
     background-size: 20px; /* La taille de l'image, ajustez selon vos besoins */
     padding-right: 30px; /* Pour s'assurer que le texte ne chevauche pas l'image */
     /* margin-right: 5%; */
+}
+
+#email {
+    background-image: url('email.png');  /* Remplacez par le chemin de votre image */
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+    background-size: 20px; /* La taille de l'image, ajustez selon vos besoins */
+    padding-right: 30px;
+}
+.phrase {
+    text-align: center;
+    margin-top: 16px;
+    
 }
